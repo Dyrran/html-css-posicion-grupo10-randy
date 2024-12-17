@@ -1,0 +1,40 @@
+.container {
+    display: flex; /* Ajusta todo el contenido al tamano de la caja */
+    flex-wrap: wrap; /* Respeta el ancho */
+    position: relative;
+}
+
+/* .caja-1 { */
+    /* position: relative;
+    top: 100px; */
+    /* Profundidad: Sólo funciona con position: relative */
+    /* z-index: 200; */
+
+    /* En este caso, configura la posicion con origen x,y en la pagina en vez del div "container"*/
+    /* position: absolute;
+    top: 100px; */
+/* } */
+
+.caja-2 {
+    /* position: relative;
+    top: 0px;
+    bottom: 100px;
+    left: 50px;
+    right: 0px;
+    z-index: 300; */
+}
+
+.caja-1 {
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    z-index: 20;
+}
+
+.caja-7 {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    z-index: 31;
+}
+
